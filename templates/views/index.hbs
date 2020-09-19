@@ -6,19 +6,18 @@
 	<title>Weather</title>
 	<link rel="icon" href="/img/weather.png">
 	<link rel="stylesheet" href="/css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="main-content">
 		{{>header}}
 
-		<p>Enter the name of your city to get your weather!</p>
-		<div class="form__group field">
-			<form action="">
-				<input class="form__field" placeholder="Location" type="text">
-				<button>Search</button>
-			</form>
-		</div>
+		<p>Use this site to get your weather!</p>
+
+		<form action="">
+			<input placeholder="Location" type="text">
+			<button>Search</button>
+		</form>
+
 		<p id="message-1"></p>
 		<p id="message-2"></p>
 	</div>
